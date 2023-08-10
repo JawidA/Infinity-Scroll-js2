@@ -8,4 +8,46 @@
 
 }
 
- 
+/* Tital */
+.main_heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px 10px;
+
+}
+
+/* Loading animation */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.loader img {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image contanter */
+.image-contaner {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
+.image-contaner img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Media Query */
+@media screen and (max-width: 600px){
+    .image-contaner {
+        width: 96%;
+    }
+}
